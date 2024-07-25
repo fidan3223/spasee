@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свяжитесь с нами - Архитектурное бюро</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Архитектурное бюро</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Дом</a></li>
+                <li><a href="index.html#about">О нас</a></li>
+                <li><a href="index.html#services">Сервисы</a></li>
+                <li><a href="index.html#portfolio">Портфолио</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact-form">
+        <h2> Контакты</h2>
+        <p>Давайте обсудим ваш проект! Мы готовы воплотить ваше видение в жизнь. Заполните форму ниже, и мы свяжемся с вами в ближайшее время. </p>
+        <form action="submit.php" method="post">
+            <label for="name">Ваше Имя:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Ваш Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Ваше обращение:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer id="contact">
+        <h2>Контакты</h2>
+        <p>Адрес: г. Москва, ул. Ленина, д. 1</p>
+        <p>Телефон: +7 (495) 123-45-67</p>
+        <p>Email: info@FormSpase.ru</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
